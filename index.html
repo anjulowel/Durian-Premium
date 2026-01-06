@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anju Lowel Durian | Premium</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0c1913;
+  --gold:#d8b76a;
+  --text:#f5f5f5;
+  --muted:#cfcfcf;
+}
+
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:radial-gradient(circle at top, #132a1f, #0c1913 60%);
+  color:var(--text);
+}
+
+/* ===== HEADER (MOBILE FIRST) ===== */
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:999;
+  padding:14px 20px;
+  background:rgba(12,25,19,.65);
+  backdrop-filter:blur(8px);
+}
+
+.header-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand-text{
+  font-family:'Playfair Display',serif;
+  font-size:1rem;
+}
+
+.header-cta{
+  background:var(--gold);
+  color:#0c1913;
+  padding:6px 14px;
+  font-size:.8rem;
+  text-decoration:none;
+}
+
+/* ===== HERO ===== */
+#hero{
+  padding-top:100px;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.hero-logo{
+  width:180px;
+  height:180px;
+  margin:0 auto 26px;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.hero-logo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+h1{
+  font-family:'Playfair Display',serif;
+  font-size:2.2rem;
+  line-height:1.2;
+  margin-bottom:16px;
+}
+
+h1 span{
+  color:var(--gold);
+}
+
+.desc{
+  max-width:320px;
+  margin:0 auto 18px;
+  font-size:.95rem;
+  line-height:1.7;
+  color:var(--muted);
+}
+
+.stock{
+  max-width:340px;
+  margin:0 auto 26px;
+  font-size:.9rem;
+  line-height:1.6;
+  color:#d6d6d6;
+}
+
+.trust{
+  font-size:.7rem;
+  letter-spacing:2px;
+  color:#bdbdbd;
+  margin-bottom:34px;
+}
+
+/* CTA */
+.hero-cta{
+  display:inline-block;
+  background:var(--gold);
+  color:#0c1913;
+  padding:16px 38px;
+  font-size:.95rem;
+  font-weight:500;
+  text-decoration:none;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  padding:40px 0 30px;
+  font-size:.75rem;
+  color:#888;
+}
+
+/* ===== DESKTOP ENHANCEMENT ===== */
+@media(min-width:992px){
+  #hero{
+    padding-top:140px;
+  }
+
+  .hero-logo{
+    width:220px;
+    height:220px;
+  }
+
+  h1{
+    font-size:3rem;
+  }
+
+  .desc,
+  .stock{
+    max-width:520px;
+    font-size:1rem;
+  }
+
+  .hero-cta{
+    font-size:1rem;
+    padding:18px 56px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <div class="brand-text">Anju Lowel Durian</div>
+    <a href="https://wa.me/6281375753810" class="header-cta">Pesan</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+
+  <!-- LOGO TENGAH -->
+  <div class="hero-logo">
+    <img src="durian.png" alt="Anju Lowel Durian">
+  </div>
+
+  <!-- HEADLINE -->
+  <h1>
+    Durian Premium<br>
+    <span>Untuk Penikmat Sejati</span>
+  </h1>
+
+  <p class="desc">
+    Dipilih secara selektif dari kebun terbaik.
+    Tekstur lembut, rasa bersih, dan konsisten.
+  </p>
+
+  <p class="stock">
+    Tersedia: Musang King, Blackthorn, D168,
+    Super Tembaga Sidikalang, Bawor,
+    dan durian premium lainnya.
+  </p>
+
+  <div class="trust">
+    100% ORGANIK &nbsp; • &nbsp; GARANSI 100%
+  </div>
+
+  <a href="https://wa.me/6281375753810" class="hero-cta">
+    PESAN VIA WHATSAPP
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Anju Lowel Durian
+</footer>
+
+</body>
+</html>
